@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/catalogActivity">
+
+    <activity
+        android:id="@+id/catalogActivity"
+        android:name="com.example.tappytoes.CatalogActivity"
+        android:label="CatalogActivity" />
+    <activity
+        android:id="@+id/productDetailsActivity"
+        android:name="com.example.tappytoes.ProductDetailsActivity"
+        android:label="ProductDetailsActivity" />
+    <activity
+        android:id="@+id/shoppingCartActivity"
+        android:name="com.example.tappytoes.ShoppingCartActivity"
+        android:label="ShoppingCartActivity" />
+</navigation>
